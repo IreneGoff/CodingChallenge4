@@ -15,3 +15,10 @@ class Car {
         console.log(`${this.make} going at ${this.speed} km/h`);
     }
 }
+
+// Implement EV Class:
+class EV extends Car {
+    constructor(make, speed, charge) {
+        super(make, speed);
+        this.charge = charge;
+    }
